@@ -1,7 +1,7 @@
 def greet_characters(array)
   
-  array.each do |characters| # Use `each` to enumerate over the provided array
-    puts "Hello #{characters}!" # Print a custom greeting for each element
+  array.each do |characters|
+    puts "Hello #{characters}!"
   end
 
 end
@@ -11,7 +11,6 @@ def list_dwarves(array)
   array.each_with_index do |dwarves, index| array[dwarves] = index
     
     index = index + 1
-    index = index.String
     
   end
 end
