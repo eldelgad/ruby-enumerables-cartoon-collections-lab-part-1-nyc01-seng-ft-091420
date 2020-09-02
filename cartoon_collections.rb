@@ -10,7 +10,7 @@ def list_dwarves(array)
   
   array.each_with_index do |dwarves, index|
     
-    puts index.to_s + array
+    puts index.String + array
     
   end
 end
