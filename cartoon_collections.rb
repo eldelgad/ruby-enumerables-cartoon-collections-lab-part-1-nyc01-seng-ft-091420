@@ -8,7 +8,7 @@ end
 
 def list_dwarves(array)
   
-  array.each_with_index do{ |dwarves, index| array[dwarves] = index }
+  array.each_with_index do |dwarves, index| array[dwarves] = index
     
     index = index + 1
     
